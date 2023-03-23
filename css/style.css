@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background: #100E14;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+#header{
+    background:#E5E5E5;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 13;
+}
+.header-nav a{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+    margin: 0 40px;
+}
+.header-nav a:hover{
+    border-bottom: 2px solid black;
+}
+.header-btn{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+    border: none;
+    background: none;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+.header-teg a{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+.header-teg a:hover{
+    border-bottom: 2px solid black;
+}
+.about-text h1{
+    font-weight: 400;
+    font-size: 53px;
+    text-align: center;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin: 40px 0 10px 0;
+}
+.about-text h3{
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 20px 0;
+}
+.hero-btn{
+    width: 150px;
+    height: 40px;
+    background: #FF4343;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin:0 0 20px 0;
+}
+.hero-btn a{
+    color: white;
+}
+.hero-title{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.about-images{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+.about-img img{
+    position: absolute;
+    right: 208px;
+}
+.product-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    width: 442px;
+    margin: 0 0 15px 0;
+}
+.product-text p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 452px;
+}
+.product-images{
+    display: flex;
+}
+.product{
+    display: flex;
+    align-items: center;
+}
+.product-img img{
+    position: absolute;
+    right: 340px;
+}
+#product{
+    margin: 80px 0 0 0;
+}
+.hero-img img{
+    position: absolute;
+}
+#hero{
+    margin: 50px 0 0 0 ;
+}
+.hero-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    width: 462px;
+}
+.hero-text p{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 524px;
+}
+.hero-text span{
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#elements{
+    margin: 80px 0 0 0;
+}
+.support{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#support{
+    margin: 90px 0 0 0;
+}
+.support-photo img{
+    position: absolute;
+
+}
+.swiper-text h1{
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    width: 510px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.swiper-text p{
+    font-weight: 400;
+    font-size: 26px;
+    width: 617px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0 40px 0;
+}
+.swiper-line{
+    width: 125px;
+    height: 5px;
+    background: #FF4343;
+    margin: 40px 0 ;
+}
+
+.swiper-title h1{
+    font-weight: 400;
+    font-size: 29px;
+    width: 170px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.swiper-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 175px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.swiper-text{
+    margin: 80px 0 0 0 ;
+}
+.swiper-title{
+    position: relative;
+    top: -180px;
+    left: 40px;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.hero-off h3{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #8BFFB0;
+}
+
+
+.hero-off h1{
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    width: 787px;
+    margin: 25px 0;
+}
+
+
+.hero-off p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 904px;
+    margin: 0 0 30px 0;
+}
+.hero-tero h1{
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 91px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #FFFFFF;
+    width: 619px;
+}
+.hero-tero p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 730px;
+}
+.naraliev-btn{
+    width: 281px;
+    height: 66px;
+    left: calc(50% - 281px/2 + 0.5px);
+    top: 297px;
+    background: #FF4343;
+    border: none;
+    color: #FFFFFF;
+}
+.naraliev-btn a{
+    font-size: 30px;
+}
+
+ #photo{
+     background:url("../imares/63.png") no-repeat center/cover;
+     min-height: 70vh;
+ }
+ .photo-text{
+     padding: 20% 0  0 0;
+ }
+ .photo-text h1{
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 49px;
+     text-align: center;
+     letter-spacing: 0.42px;
+     color: #FFFFFF;
+ }
+ .photo-text p{
+     font-weight: 400;
+     font-size: 23px;
+     line-height: 30px;
+     text-align: center;
+     letter-spacing: 0.42px;
+     color: rgba(255, 255, 255, 0.7);
+ }
+ .hero-para{
+     font-weight: 400;
+     font-size: 40px;
+     line-height: 70px;
+     letter-spacing: 1.92px;
+     color: #FFFFFF;
+     margin: 138px;
+ }
+ .tol-block{
+     width: 490px;
+     height: 450px;
+     background:#85E9A5 150px;
+ }
